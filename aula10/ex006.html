@@ -26,10 +26,11 @@
         area.addEventListener('click', clicar)
         area.addEventListener('mouseenter', entrou)
         area.addEventListener('mouseout', saiu)
-        
+        var x =0;
         function clicar(){
-            area.innerText = 'Clicou!'
+            x++
             area.style.background = 'red'
+            area.innerText = `${x}X`
         }
         function entrou(){
             area.innerText = 'Entrou!'
