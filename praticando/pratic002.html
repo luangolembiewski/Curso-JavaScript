@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #visor{
+            height: 40px;
+            width: 312px;
+            font-size: 18px;
+            text-align: end;
+        }
+        .butt{
+            height: 80px;
+            width: 80px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #inter{
+            list-style: none;
+        }
+        #resultado{
+            height: 80px;
+            width: 160px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <ul id="inter">
+        <div>
+            <p>
+                id="visor" type=""
+            </p>
+        </div>
+        
+        <li>
+            <button class="butt" id="um" type="number">1
+            <button class="butt" id="dois" type="number">2
+            <button class="butt" id="tres" type="number">3
+            <button class="butt" id="dividir" type="number">%
+        </li>
+        <li>
+            <button class="butt" id="quatro" type="number">4
+            <button class="butt" id="cinco" type="number">5
+            <button class="butt" id="seis" type="number">6
+            <button class="butt" id="xis" type="number">x
+        </li>
+        <li>
+            <button class="butt" id="sete" type="number">7
+            <button class="butt" id="oito" type="number">8
+            <button class="butt" id="nove" type="number">9
+            <button class="butt" id="subtracao" type="number">-
+        </li>
+        <li>
+            <button class="butt" id="zero" type="number">0
+            <button id="resultado" type="number">=
+            <button class="butt" id="adicao" type="number">+
+        </li>
+    </ul>
+    
+    <>
+        var visor = window.document.getElementById('visor')
+
+        var um = window.document.querySelector('button#um')
+        var dois = window.document.querySelector('button#dois')
+        var adicao = window.document.querySelector('button#adicao')
+        var resultado = window.document.querySelector('button#resultado')
+
+        var dados=[]
+        um.addEventListener('click', UmClick)
+        dois.addEventListener('click', DoisClick)
+        adicao.addEventListener('click', AdicaoClick)
+        resultado.addEventListener('click', ResultadoClick)
+
+        function UmClick(){
+            //window.alert("Minha primeira mensagem")
+            visor.value = visor.value+"1"
+            dados.push('1')
+        }
+        function DoisClick(){
+            visor.value = visor.value+"2"
+            dados.push('2')
+        }
+        function AdicaoClick(){
+            visor.value = visor.value+"+"
+            dados.push('+')
+        }
+        function ResultadoClick(){
+            var x=0
+            visor.value = null
+            while(x<dados.length){
+                try{
+                    visor.value = visor.value + Number(dados[x])
+                }catch{}
+                
+                x++
+            }
+            
+        }
+    </>
+</body>
+</html>
