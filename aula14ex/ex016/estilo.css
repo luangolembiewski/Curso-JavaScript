@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+section{
+    background-color: white;
+    text-align: start;
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+}
+p{
+    padding: 5px;
+    margin: 10px;
+}

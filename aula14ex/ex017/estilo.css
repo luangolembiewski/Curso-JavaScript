@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+section{
+    background-color: white;
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: start;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+}
+p{
+    padding: 10px;
+    margin: 10px;
+}
+input{
+    width: 50px;
+}
+select{
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+}
