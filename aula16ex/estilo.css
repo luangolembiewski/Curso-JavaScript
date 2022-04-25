@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+section{
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    text-align: start;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+}
+div{
+    padding: 10px;
+    margin: 10px;
+}
+select{
+    width: 200px;
+}
