@@ -1,0 +1,18 @@
+Aprender as noções básicas: tipos de dados, estruturas de controle de fluxo, funções e objetos.
+
+Estudar o DOM (Document Object Model) e o BOM (Browser Object Model) para compreender a interação com páginas web.
+
+Praticar programação orientada a objetos com JavaScript.
+
+Conhecer e aprender sobre bibliotecas e frameworks populares como jQuery, React, Vue e Angular.
+
+Aprender boas práticas de codificação, incluindo padrões de projeto, organização de código, testes e depuração.
+
+Participar de projetos open-source para ganhar experiência prática e contribuir para a comunidade.
+
+Participar de fóruns e comunidades online para manter-se atualizado e aprender com outros profissionais.
+
+Continuar a aprender e experimentar novas tecnologias e tendências relacionadas a JavaScript.
+
+
+
